@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar{
+    height: 60px;
+    /* width: 100vw; */
+    padding: 2px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+.navbar ul li{
+    list-style: none;
+    padding-right: 15px;
+}
+.controlOptions{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    display: noneb;
+}
+.controlOption{
+    height: 35px;
+    width: 70px;
+    background-color: #454961;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.mainArea{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    border:  #a9b2e1 solid 2px;
+    width: 100%;
+}
+.listOfEntriesContainer{
+    flex: 1;
+    /* height: 80%; */
+    /* border:  #9E9FA5 solid 2px; */
+    margin: 4px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* overflow: scroll; */
+    /* display: block */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: scroll;
+}
+.entryCards{
+    /* margin: 3px; */
+    border:  #a9b2e1 solid 2px;
+    display: block;
+    padding: 4px;
+    transition: 0.4s;
+    width: 300px;
+    height: 330px;
+
+}
+.entryCards:hover{
+    background-color: rgb(227, 215, 250);
+    font-size: large;   
+    cursor: pointer;
+}
+
+.entryCardTitle{
+    display: flex;
+    background-color: #a9b2e1;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.entryCardCover{
+    /* height: 400px; */
+    height: 300px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1514190299180-f89baff3ec10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* display: none;    */
+    /* background-color: rgb(57, 105, 105); */
+
+}   
+.entryContainer{
+    flex: 4;
+    /* height: 80%; */
+    /* border:  #9E9FA5 solid 2px; */
+    margin: 4px;
+    display: none;
+
+}
+.entry{
+    /* border:  #9E9FA5 solid 2px; */
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    padding: 4px;
+
+}
