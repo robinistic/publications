@@ -47,7 +47,7 @@
     height: 80vh;
     display: flex;
     flex-direction: row;
-    border:  #a9b2e1 solid 2px;
+    /* border:  #a9b2e1 solid 2px; */
     width: 100%;
 }
 .listOfEntriesContainer{
@@ -67,7 +67,7 @@
 }
 .entryCards{
     /* margin: 3px; */
-    border:  #a9b2e1 solid 2px;
+    /* border:  #a9b2e1 solid 2px; */
     display: block;
     padding: 4px;
     transition: 0.4s;
@@ -92,13 +92,20 @@
     /* height: 400px; */
     height: 300px;
     width: 100%;
-    background-image: url('https://images.unsplash.com/photo-1514190299180-f89baff3ec10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
     background-size: cover; 
     background-repeat: no-repeat;
     /* display: none;    */
     /* background-color: rgb(57, 105, 105); */
 
 }   
+#yatri1{
+    background-image: url('https://images.unsplash.com/photo-1514190299180-f89baff3ec10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+
+}
+#sikshya1{
+    background-image: url('https://www.pinkvilla.com/images/2022-09/3-idiots_2.jpg');
+
+}
 .entryContainer{
     flex: 4;
     /* height: 80%; */
@@ -113,5 +120,5 @@
     width: 100%;
     overflow: scroll;
     padding: 4px;
-
+    font-size: 20px;
 }
